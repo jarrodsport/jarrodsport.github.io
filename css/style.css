@@ -1,44 +1,85 @@
 body {
+  background: url('../images/background2.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   margin: 0;
   height: 100%;
   width: 100%;
 }
 
-div.section {
-  background-color: black;
+div.landing {
   text-align: center;
 }
 
-div.landing {
+div.video {
+  background-color: rgba(0,0,0,0.7);
+  text-align: center;
+}
 
+div.podcast {
+  background-color: rgba(0,0,0,0.7);
+  text-align: center;
+}
+
+div.contact {
+  /*background-color: black;*/
+  text-align: center;
+}
+
+div.slide {
+  background-color: rgba(0,0,0,0.7);
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+div.columns {
+  padding-top: 15px;
+  padding-bottom: 15px
 }
 
 h1#landing-header {
-  /*padding-top: 40vh;*/
-  color: steelblue;
-  font-family: 'Biryani', sans-serif;
-  font-size: 100px;
+  color: mediumpurple;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 70px;
 }
+
 
 h1#video {
-  /*padding-top: 40vh;*/
-  color: red;
-  font-family: 'Biryani', sans-serif;
-  font-size: 100px;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 30px;
 }
 
-h1#audio {
-  /*padding-top: 40vh;*/
-  color: red;
-  font-family: 'Biryani', sans-serif;
-  font-size: 100px;
+
+h1.video-title {
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+h1#podcast {
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+}
+
+h1#contact {
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 30px;
 }
 
 ul#landing-description {
-  color: white;
+  color: lavender;
   list-style-type: none;
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 li {
