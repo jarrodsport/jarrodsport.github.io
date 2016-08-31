@@ -1,5 +1,5 @@
 body {
-  background: url('../images/background2.jpeg') no-repeat center center fixed;
+  background: url('../images/background6.jpg') no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -7,6 +7,7 @@ body {
   margin: 0;
   height: 100%;
   width: 100%;
+  text-align: center;
   color: white;
 }
 
@@ -14,6 +15,11 @@ body {
 
 div.landing {
   text-align: center;
+}
+
+div.header {
+  max-width: 600px;
+  background-color: rgba(255,255,255,0.85);
 }
 
 div.video {
@@ -42,7 +48,7 @@ div.columns {
 }
 
 div.bio {
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(255,255,255,0.85);
   max-width: 500px;
   padding: 20px;
 }
@@ -54,12 +60,12 @@ p {
 }
 
 p#summary {
-  color: white;
+  color: black;
   text-align: left;
 }
 
-h1#landing-header {
-  color: mediumpurple;
+p#landing-header {
+  color: indigo;
   font-family: 'Montserrat', sans-serif;
   font-size: 70px;
 }
@@ -88,14 +94,14 @@ h1#podcast {
 }
 
 h1#contact {
-  color: wheat;
+  color: indigo;
   font-family: 'Josefin Sans', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 30px;
 }
 
 ul#landing-description {
-  color: wheat;
+  color: black;
   list-style-type: none;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 15px;
@@ -110,12 +116,12 @@ li {
 }
 
 a:link {
-  color: mediumpurple;
+  color: indigo;
   text-decoration: none;
 }
 
 a:visited {
-  color: mediumpurple;
+  color: indigo;
   text-decoration: none;
 }
 
