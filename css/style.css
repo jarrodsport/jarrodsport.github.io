@@ -1,11 +1,49 @@
-section.landing {
-  background-color: black;
-  text-align: center;
-  height: 100vh;
-  width: 100vw;
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
 }
 
-h1.landing {
-  color: red;
+div.section {
+  background-color: black;
+  text-align: center;
+}
+
+div.landing {
+
+}
+
+h1#landing-header {
+  /*padding-top: 40vh;*/
+  color: steelblue;
+  font-family: 'Biryani', sans-serif;
   font-size: 100px;
 }
+
+h1#video {
+  /*padding-top: 40vh;*/
+  color: red;
+  font-family: 'Biryani', sans-serif;
+  font-size: 100px;
+}
+
+h1#audio {
+  /*padding-top: 40vh;*/
+  color: red;
+  font-family: 'Biryani', sans-serif;
+  font-size: 100px;
+}
+
+ul#landing-description {
+  color: white;
+  list-style-type: none;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+}
+
+li {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
